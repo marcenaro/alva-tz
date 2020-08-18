@@ -49,7 +49,7 @@
             evt.preventDefault();
             popup.classList.remove("modal-show");
             popup.classList.remove("modal-error");
-            body.classList.remove("no-scroll");
+            bodylock.classList.remove("no-scroll");
         });
 
         form.addEventListener("submit", function (evt) {

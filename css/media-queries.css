@@ -13,13 +13,18 @@
         background-size: 30px;
     }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .decor-single-slider {
       padding: 0; 
     }
 }
 
-
+@media (min-width: 1024px) {
+    .menu-mobile {
+        display: none;
+    }
+}
 
 @media (max-width:1023px) {
     .header__body {
@@ -263,41 +268,20 @@
         padding: 20px;
         z-index: 100;
     }
-
-    .modal-close {
-        top: 25px;
-        right: 20px;
-    }
 }
 
-@media (max-height:524px){
+@media (max-height:524px) {
     body.lock {
         overflow: hidden;
     }
 }
 
-@media (max-width:480px){
+@media (max-width:480px) {
     .main-header-logo {
         font-size: 18px;
         padding-left: 10px;
     }
 
-    .icon_link {
-        display: none;
-    }
-
-    .mobile_basket {
-        display: block;
-    }
-
-    .mobile_pull-right {
-        display: block;
-    }
-
-    .mobile_doSearch {
-        display: block;
-    }
-    
     .catalog-item {
         min-width: 300px;
         height: auto;
@@ -337,23 +321,39 @@
     }
 
     .titles {
-        margin-top: 10px;
-        margin-bottom:  0px;  
+        margin-top: 15px;
+        margin-bottom:  10px;  
     }
 
     .titles_list .btn_nav-item-js {
-        font-size: 17px;  
+        font-size: 20px;  
     }
 
-    .modal-close {
+    .modal-header-basket .modal-close {
         top: 26px;
-        right: 28px;
+        right: 23px;
+    }
+    .modal-login .modal-close {
+        top: 25px;
+        right: 65px;
+    }
+    
+}
+
+@media (max-width: 330px) {
+    .modal-login .modal-close {
+        right: 90px;
+    }
+    .main-header-logo {
+        font-size: 15px;
+        text-align: center;
+        padding-left: 10px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .header__burger {
+        margin-bottom: 19px;
     }
 }
 
 
-@media (min-width: 1024px) {
-    .menu-mobile {
-        display: none;
-    }
-}
