@@ -589,6 +589,9 @@ a {
     transition: all 0.3s ease-in-out .1s;
     background-color: #fff;
 }
+.product-description {
+    margin: 0 0 5px;
+}
 
 .nav-desctiprion {
     display: flex;
